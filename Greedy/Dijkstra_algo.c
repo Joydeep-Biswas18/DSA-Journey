@@ -12,7 +12,7 @@ int main()
     int dist[n];
     int visited[n];
     int cost[n][n];
-    
+
     printf("Enter the Adjacency Matrix :\n");
 
     for (i = 0; i < n; i++)
@@ -65,9 +65,9 @@ int main()
     }
 
     printf("\n Shortest Distance from Vertex %d : \n", source);
-    for( int i =0; i<n; i++){
-        printf("%d ---> %d = %d\n",source,i , dist[i]);
-
+    for (int i = 0; i < n; i++)
+    {
+        printf("%d ---> %d = %d\n", source, i, dist[i]);
     }
     return 0;
 }
