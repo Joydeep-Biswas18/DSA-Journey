@@ -2,6 +2,7 @@
 *.exe
 *.out
 *.o
+*.class
 
 # VS Code settings
 .vscode/
