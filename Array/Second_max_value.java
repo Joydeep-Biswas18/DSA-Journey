@@ -1,6 +1,6 @@
 public class Second_max_value {
     public static void main(String[] args) {
-        int [] arr = {23,12,324,43,546,23,100};
+        int [] arr = {23,12,324,43,546,23,100,546};
         int max = Integer.MIN_VALUE;
         int Second_max = Integer.MIN_VALUE;
 
@@ -15,6 +15,7 @@ public class Second_max_value {
             }
         }
         System.out.println("The LArgest element is "+max);
-        System.out.println("The LArgest element is "+Second_max);
+        System.out.println("The 2nd LArgest element is "+Second_max);
     }
 }
+ 
