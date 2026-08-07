@@ -1,4 +1,4 @@
-public class Next_permutation {
+public class Next_permutation_leetCode_31 {
     public static void main(String[] args) {
         int [] arr ={3,9,2,1,0};
         int ans [] = Next_permutation(arr);
