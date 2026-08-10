@@ -1,6 +1,6 @@
 // package Sliding window;
 
-public class leetCode_1004 {
+public class leetCode_1004_max_consecutive_one {
     public static void main(String[] args) {
         long start = System.nanoTime();
         int[] arr ={1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1};

@@ -1,5 +1,5 @@
 // package Sliding window;
-
+// That is the problem of Longest subarray with sum less tha k 
 public class longest_subarray {
     public static void main(String[] args) {
         int [] arr ={2,3,4,56,45,234,100,5,65,35,675,86,75,45,76,46,23,4,9};
