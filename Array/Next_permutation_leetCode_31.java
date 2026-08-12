@@ -48,3 +48,8 @@ public class Next_permutation_leetCode_31 {
         
 }
 }
+class solution{
+    public static void main(String[] args) {
+        
+    }
+}
