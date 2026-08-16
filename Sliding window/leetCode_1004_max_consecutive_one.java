@@ -3,15 +3,15 @@
 public class leetCode_1004_max_consecutive_one {
     public static void main(String[] args) {
         long start = System.nanoTime();
-        int[] arr ={1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1};
+        int[] arr ={0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1};
         // int length = Max_consecutive_1(arr, 2);
-        Max_consecutive_1(arr, 2);
+        Max_consecutive_1(arr, 3);
         long end = System.nanoTime();
         System.out.println();
         System.out.println("Time"+(end-start)+"ns");
         
         long start1 = System.nanoTime();
-        Further_optimization(arr, 2);
+        Further_optimization(arr, 3);
         // System.out.println(length1);
         long end1 = System.nanoTime();
         System.out.println();

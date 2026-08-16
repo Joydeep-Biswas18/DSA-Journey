@@ -2,7 +2,7 @@
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class Two_sum_optimal {
+public class Two_sum_optimal_hashmap {
     public static void main(String[] args) {
         int [] arr = {2,3,45,23,5,67,3,200};
         System.out.println(Arrays.toString(two_sum(arr, 245)));
