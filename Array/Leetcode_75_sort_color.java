@@ -72,9 +72,9 @@ public class Leetcode_75_sort_color {
             if (arr[i] == 0) {
                 count_0++;
             } else if (arr[i] == 1) {
-                count_0++;
+                count_1++;
             } else {
-                count_0++;
+                count_2++;
             }
         }
         for (int i = 0; i < count_0; i++) {
