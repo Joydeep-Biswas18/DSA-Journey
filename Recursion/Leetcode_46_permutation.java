@@ -2,7 +2,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Print_permutation {
+public class Leetcode_46_permutation {
 
     public static void main(String[] args) {
         int[] nums = {1,2,3};
