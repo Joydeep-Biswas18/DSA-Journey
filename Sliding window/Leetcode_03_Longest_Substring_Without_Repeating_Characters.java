@@ -6,6 +6,7 @@ public class Leetcode_03_Longest_Substring_Without_Repeating_Characters {
     public static void main(String[] args) {
         String sample = "abcabcbb";
         System.out.println(count_length(sample));
+
     }
 
     public static int count_length(String s) {
@@ -33,6 +34,7 @@ public class Leetcode_03_Longest_Substring_Without_Repeating_Characters {
             max_length = Math.max(max_length, lenght);
 
             r++;
+
         }
 
         return max_length;
