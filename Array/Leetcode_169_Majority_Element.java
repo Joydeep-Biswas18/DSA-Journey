@@ -66,6 +66,7 @@ class Solution_2 {
             } else {
                 count_voting--;
             }
+            //After ending loop we found the element that occures most of time
 
         }
         int count_major_element = 0; // that count refers to the eleemnt that has most vote i mean which is not count_voting is zero
