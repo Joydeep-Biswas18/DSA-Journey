@@ -15,7 +15,7 @@ public class fibonacci_series {
             return -1;
         }
         else{
-            return fibonacci_num(n-1) + fibonacci_num(n-1);
+            return fibonacci_num(n-1) + fibonacci_num(n-2);
 
     }
 }
